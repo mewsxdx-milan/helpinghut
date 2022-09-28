@@ -1,0 +1,22 @@
+.navbar {
+height: 100px;
+display: flex;
+border-bottom: 1px solid lightgrey;
+box-shadow: 2px 5px 20px  rgba(128, 128, 128, 0.582);
+
+
+}
+.navbar a{
+    margin-left: 200px;
+    font-size:20px;
+    font-weight: 700;
+}
+img{
+    width: 90px;
+    height: 75px;
+    position: relative;
+    left: 190px;
+}
+.nav-link:hover{
+    cursor: pointer;
+}

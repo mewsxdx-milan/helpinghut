@@ -1,0 +1,58 @@
+.cardimg{
+    height: 400px;
+    width: 638px;
+    position:relative;
+    left: 0px;
+    margin-top: 40px;
+}
+.card{
+    width: 
+    40rem;
+    display: flex;
+    opacity: 1;
+    margin-top: 10px;
+    animation:cardin infinite 7s ;
+    
+    
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.outer a{
+    margin-left: 260px;
+}
+
+
+
+@keyframes cardin {
+    0%{
+        position: absolute;
+        opacity: 0.3;
+       scale: 0.8;
+    
+    }
+   
+    25%{ 
+transform: translateX(80px);
+            scale: 0.9;
+    }
+    50%{
+        transform: rotate3d(7 ,0 ,0,30deg);
+        box-shadow: 20px 50px 30px black;
+        
+      
+
+    }
+  
+    100%{
+        scale: 0.8;
+
+
+    }
+ 
+}
